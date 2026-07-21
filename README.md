@@ -14,4 +14,4 @@ This Folder contains my learning resources and notes for Python libraries used i
 - Keras
 
 These PDFs are for educational purposes and help me revise important concepts.
-![Python Libraries](images/python-libraries.png)
+![Python Libraries](python-libraries.png)

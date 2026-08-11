@@ -17,6 +17,23 @@ These PDFs are for educational purposes and help me revise important concepts.
 ![ML_Experiment](dataset.png)
 
 # Simple Linear Regression(Exp_No.2)
+
+## Objective
+Implement Simple Linear Regression to predict values based on a single independent variable.
+
+## Description
+This experiment demonstrates the implementation of Simple Linear Regression, including data preprocessing, model training, prediction, and visualization of the regression line.
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+## Author
+Prathamesh Patil
+
 # Multiple Linear Regression(Exp_No.3)
 
 

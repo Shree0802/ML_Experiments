@@ -35,6 +35,23 @@ This experiment demonstrates the implementation of Simple Linear Regression, inc
 Prathamesh Patil
 ![ML_Experiment](Package_Prediction.png)
 
-# Multiple Linear Regression(Exp_No.3)
+# Multiple Linear Regression (Exp_No.3)
+
+## Aim
+To implement multivariate linear regression using Python and evaluate its performance.
+
+## Description
+This experiment demonstrates the implementation of Multiple Linear Regression using multiple input features to predict a target variable. The model is trained and evaluated using performance metrics such as MSE and R² score.
+
+## Tools Used
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+## Author
+Prathamesh Patil
+![ML_Experiment](Package_Prediction.png)
 
 

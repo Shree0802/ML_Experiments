@@ -33,6 +33,7 @@ This experiment demonstrates the implementation of Simple Linear Regression, inc
 
 ## Author
 Prathamesh Patil
+![ML_Experiment](Package_Predicition.png)
 
 # Multiple Linear Regression(Exp_No.3)
 

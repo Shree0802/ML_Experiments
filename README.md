@@ -52,6 +52,6 @@ This experiment demonstrates the implementation of Multiple Linear Regression us
 
 ## Author
 Prathamesh Patil
-![ML_Experiment](Package_Prediction.png)
+![ML_Experiment](Package_Prediction_MLR.png)
 
 

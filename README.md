@@ -54,4 +54,13 @@ This experiment demonstrates the implementation of Multiple Linear Regression us
 Prathamesh Patil
 ![ML_Experiment](Package_Prediction_MLR.png)
 
+# Logistic_Regression (Exp_No.4)
+
+## Title:
+Implementation of Logistic Regression for Binary Classification
+
+## Aim:
+To implement logistic regression for binary classification using Python and
+evaluate its performance.
+
 

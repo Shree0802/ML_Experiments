@@ -72,6 +72,8 @@ Implemented Logistic Regression using Python and Scikit-learn to predict the car
 - Scikit-learn
 - Pickle
    
-# Student Likely To Be Placed According to Dataset
-![ML_Experiment](Package_Prediction_MLR.png)
+# Student Likely To Be Placed According to Dataset Provided
+![ML_Experiment](Student_Placed.png)
 
+# Student Likely To Be Not Placed According to Dataset Provided
+![ML_Experiment](Student_Not_Placed.png)

@@ -61,7 +61,11 @@ To implement logistic regression for binary classification using Python and
 evaluate its performance.
 
 ## Description
-Implemented Logistic Regression using Python and Scikit-learn to predict the card assigned to a bank account based on its account type. The experiment includes data preprocessing, categorical encoding, model training, prediction, and evaluation using accuracy, confusion matrix, classification report, ROC curve, and AUC.
+Implemented a **Logistic Regression** model to predict student placement based on **CGPA and IQ score**. The model performs binary classification to determine whether a student is **Likely to be PLACED** or **NOT Likely to be PLACED**.
+
+The experiment includes data preprocessing, model training using Python and Scikit-learn, prediction, and evaluation using accuracy, confusion matrix, classification report, ROC curve, and AUC.
+
+A **Flask web application** was also developed to provide an interactive interface where users can enter a student's CGPA and IQ score and get the placement prediction in real time.
 
 ### Libraries Used
 

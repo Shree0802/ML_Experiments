@@ -56,11 +56,21 @@ Prathamesh Patil
 
 # Logistic_Regression (Exp_No.4)
 
-## Title:
-Implementation of Logistic Regression for Binary Classification
-
 ## Aim:
 To implement logistic regression for binary classification using Python and
 evaluate its performance.
 
+## Description
+Implemented Logistic Regression using Python and Scikit-learn to predict the card assigned to a bank account based on its account type. The experiment includes data preprocessing, categorical encoding, model training, prediction, and evaluation using accuracy, confusion matrix, classification report, ROC curve, and AUC.
+
+### Libraries Used
+
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Pickle
+
+![ML_Experiment](Package_Prediction_MLR.png)
 

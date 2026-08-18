@@ -71,6 +71,7 @@ Implemented Logistic Regression using Python and Scikit-learn to predict the car
 - Seaborn
 - Scikit-learn
 - Pickle
-
+   
+# Student Likely To Be Placed According to Dataset
 ![ML_Experiment](Package_Prediction_MLR.png)
 

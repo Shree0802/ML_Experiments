@@ -55,6 +55,7 @@ Prathamesh Patil
 ![ML_Experiment](Package_Prediction_MLR.png)
 
 # Logistic_Regression (Exp_No.4)
+#Part:1 Binary Clasification
 
 ## Aim:
 To implement logistic regression for binary classification using Python and
@@ -81,3 +82,20 @@ A **Flask web application** was also developed to provide an interactive interfa
 
 # Student Likely To Be Not Placed According to Dataset Provided
 ![ML_Experiment](Student_Not_Placed.png)
+
+# Logistic_Regression (Exp_No.5)
+#Part:2 Multiclass Clasification
+
+## Aim:
+To implement multiclass classification using Python and evaluate its
+performance.
+
+## Description
+Implemented a Multiclass Logistic Regression model to predict a student's Stress Level based on Study Hours, Sleep Hours, and Screen Time. The model performs multiclass classification to determine whether a student has Low Stress, Medium Stress, or High Stress.
+
+The experiment includes data preprocessing, model training using Python and Scikit-learn, prediction, and evaluation using accuracy, confusion matrix, and classification report.
+
+A Flask web application was also developed to provide an interactive interface where users can enter a student's Study Hours, Sleep Hours, and Screen Time and get the Stress Level prediction in real time.
+
+# Student Performance Predictor Using Multiclass Logistic Regression
+![ML_Experiment](Student_Performance_Predictor.png)

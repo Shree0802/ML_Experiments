@@ -99,3 +99,24 @@ A Flask web application was also developed to provide an interactive interface w
 
 # Student Performance Predictor Using Multiclass Logistic Regression
 ![ML_Experiment](Student_Performance_Predictor.png)
+
+# Decision_Tree_Clasifier (Exp_No.6)
+## Gini Index
+
+## Aim:
+To implement a Decision Tree classifier using Python and evaluate its
+performance on a given dataset.
+
+## Description
+Implemented a Decision Tree Classifier using the Gini Index to predict whether a patient has heart disease or not based on 13 clinical and diagnostic features from the UCI Heart Disease dataset.
+
+The experiment includes data preprocessing, model training using Python and Scikit-learn, prediction, and evaluation using accuracy, confusion matrix, classification report, and ROC-AUC. A Decision Tree visualization and feature importance analysis were also performed.
+
+A Heart Disease Risk Predictor interface was also developed to allow users to enter patient details and obtain a heart disease prediction.
+
+## Heart Disease Risk Predictor
+# Heart Disease Detected
+![ML_Experiment](Heart_Disease_Detected.png)
+# No Heart Disease Detected
+![ML_Experiment](No_Heart_Disease_Detected.png)
+

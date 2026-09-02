@@ -116,7 +116,7 @@ A Heart Disease Risk Predictor interface was also developed to allow users to en
 
 ## Heart Disease Risk Predictor
 # Heart Disease Detected
-![ML_Experiment](Heart_Disease_Detected.png)
+![ML_Experiment](Heart Disease Detected.png)
 # No Heart Disease Detected
-![ML_Experiment](No_Heart_Disease_Detected.png)
+![ML_Experiment](No Heart Disease Detected.png)
 

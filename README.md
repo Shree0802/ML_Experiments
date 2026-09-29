@@ -120,7 +120,7 @@ A Heart Disease Risk Predictor interface was also developed to allow users to en
 # No Heart Disease Detected
 ![ML_Experiment](No_Heart_Disease_Detected.png)
 
-# 7.KNN Classifier (Exp_No.7)
+# KNN Classifier (Exp_No.7)
 
 ## About
 This experiment demonstrates the implementation of the K-Nearest Neighbors (KNN) classification algorithm on two different datasets: Diabetes and Breast Cancer.

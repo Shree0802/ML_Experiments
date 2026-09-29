@@ -120,3 +120,31 @@ A Heart Disease Risk Predictor interface was also developed to allow users to en
 # No Heart Disease Detected
 ![ML_Experiment](No_Heart_Disease_Detected.png)
 
+# 7.KNN Classifier (Exp_No.7)
+
+## About
+This experiment demonstrates the implementation of the K-Nearest Neighbors (KNN) classification algorithm on two different datasets: Diabetes and Breast Cancer.
+
+KNN Workflow
+
+- Load and Inspect the Dataset
+- Data Preprocessing
+- Explore the Data
+- Split and Scale the Data
+- Tune the K Value
+- Train and Evaluate the Model
+- Make Predictions
+
+
+## 1. Breast Cancer Dataset
+The KNN classifier is used to predict whether a breast tumor is malignant or benign based on diagnostic measurements.
+
+### Output :-
+![Breast Cancer Dataset Output](KNN_Classifier_breast_output.png)
+
+## 2. Diabetes Dataset
+The KNN classifier predicts whether a patient has diabetes or not based on diagnostic and medical measurements.
+
+### Output :-
+![Diabetes Dataset Output](KNN_Classifier_dibaties_output.png)
+

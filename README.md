@@ -148,3 +148,40 @@ The KNN classifier predicts whether a patient has diabetes or not based on diagn
 ### Output :-
 ![Diabetes Dataset Output](KNN_Classifier_dibaties_output.png)
 
+# Naive Bayes Classifier(Exp_N0.8)
+Title:
+Implementation of Naive Bayes Classifier
+
+Aim:
+To implement the Naïve Bayes Classifier using Python and evaluate its performance on a classification dataset.
+
+## Campus Message Detective
+![ML_Experiments](NBC_MiniProject.png)
+
+## Output:
+![ML_Experiments](nbcMiniproject.png)
+
+# Support Vector Machine
+
+# Linear_SVM(Exp_No.9)
+Title: Implementation of Linear SVM.
+
+## About
+Develop a Linear SVM classification model that learns a separating hyperplane from labelled banknote samples and deploy it as a web application using Flask and HTML.
+Counterfeit Banknote Detection using Linear SVM
+Use the Banknote Authentication dataset from the UCI Machine Learning Repository.
+The model predicts whether a banknote sample is classified as genuine or counterfeit using numerical features extracted from an image.
+
+## OutPut:
+![ML_Experiment](Linear_SVM.png)
+
+# Non-Linear_SVM(Exp_No.10)
+Title: Implementation of Non-Linear SVM.
+
+## Output:
+![ML_Experiment](Non_Linear_SVM.png)
+
+
+
+
+

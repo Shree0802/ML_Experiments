@@ -181,6 +181,14 @@ Title: Implementation of Non-Linear SVM.
 ## Output:
 ![ML_Experiment](Non_Linear_SVM.png)
 
+# Random Forest Algorithm(Exp_No.11)
+Title: Implementation of Random Forest Algorithm
+
+Problem Statement:
+
+Select a suitable real-world problem and dataset of your choice to develop an end-to-end machine learning project using both classification and regression. Implement and compare Decision Tree and Random Forest algorithms to evaluate their performance.
+
+![ML_Experiment]()
 
 
 

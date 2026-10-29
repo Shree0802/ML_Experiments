@@ -1,195 +1,439 @@
-# This README.md File For ALL Experiments of Machine Learning
+# 🧪 Machine Learning Experiments
 
-# Python-Libraries
+Welcome to my **Machine Learning Experiments Repository**! This repository contains my Machine Learning laboratory experiments, Python library notes, datasets, model training workflows, and practical implementations of regression and classification algorithms using Python.
 
-This Folder contains my learning resources and notes for Python libraries used in Data Science, Machine Learning, and Deep Learning.
+**Author:** Prathamesh Balaji Patil
+**Branch:** Artificial Intelligence and Machine Learning
+**Repository:** [ML_Experiments](https://github.com/Shree0802/ML_Experiments)
 
+---
 
-These PDFs are for educational purposes and help me revise important concepts.
-![ML_Experiment](python-libraries.png)
+## 📚 Table of Contents
 
-# Dataset_Model Train(Exp_No.1)
+| No. | Folder / Experiment                                          | Description                                     |
+| --: | ------------------------------------------------------------ | ----------------------------------------------- |
+|  01 | [Python Libraries](#01-python-libraries)                     | Python libraries and learning resources         |
+|  02 | [Dataset and Model Training](#02-dataset-and-model-training) | Datasets and mini assignments                   |
+|  03 | [Simple Linear Regression](#03-simple-linear-regression)     | Regression using one independent variable       |
+|  04 | [Multiple Linear Regression](#04-multiple-linear-regression) | Regression using multiple independent variables |
+|  05 | [Logistic Regression](#05-logistic-regression)               | Binary and multiclass classification            |
+|  06 | [Decision Tree Classifier](#06-decision-tree-classifier)     | Decision Tree using Gini Index                  |
+|  07 | [KNN Classifier](#07-knn-classifier)                         | Breast cancer and diabetes classification       |
+|  08 | [Naive Bayes Classifier](#08-naive-bayes-classifier)         | Text classification mini project                |
+|  09 | [Support Vector Machine](#09-support-vector-machine)         | Linear and nonlinear SVM                        |
+|  10 | [Random Forest Algorithm](#10-random-forest-algorithm)       | Classification and regression                   |
+|  11 | [Assets](#11-assets)                                         | Experiment screenshots and output images        |
 
-1) This folder contains datasets used for Data Science, Machine Learning, and Deep Learning experiments. These datasets support data preprocessing, model training, evaluation, and practical implementation of AI/ML concepts.
+---
 
-2) Also in this folder included 'Mini Assignment
+## 01. Python Libraries
 
-![ML_Experiment](dataset.png)
+**Folder:** `01_Python-Libraries/`
 
-# Simple Linear Regression(Exp_No.2)
+This folder contains learning resources, notes, and PDF documents for Python libraries used in Data Science, Machine Learning, and Deep Learning.
 
-## Objective
+These resources help with learning, revising important concepts, and understanding the libraries commonly used in AI/ML.
+
+### Screenshot
+
+![Python Libraries](assets/python-libraries.png)
+
+---
+
+## 02. Dataset and Model Training
+
+**Folder:** `02_Dataset/`
+
+This folder contains datasets used in Data Science, Machine Learning, and Deep Learning experiments.
+
+The datasets support:
+
+* Data preprocessing and cleaning
+* Exploratory data analysis
+* Feature selection and preparation
+* Model training and testing
+* Model evaluation
+* Practical implementation of AI/ML concepts
+
+This folder also includes mini-assignment materials.
+
+### Screenshot
+
+![Dataset and Model Training](assets/dataset.png)
+
+---
+
+## 03. Simple Linear Regression
+
+**Folder:** `03_Simple_Linear_Regression/`
+
+### Objective
+
 Implement Simple Linear Regression to predict values based on a single independent variable.
 
-## Description
-This experiment demonstrates the implementation of Simple Linear Regression, including data preprocessing, model training, prediction, and visualization of the regression line.
+### Description
 
-## Tools Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+This experiment demonstrates Simple Linear Regression using Python. It covers data preprocessing, model training, prediction, and visualization of the regression line.
 
-## Author
-Prathamesh Patil
-![ML_Experiment](Package_Prediction.png)
+### Tools Used
 
-# Multiple Linear Regression (Exp_No.3)
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
 
-## Aim
-To implement multivariate linear regression using Python and evaluate its performance.
+### Output
 
-## Description
-This experiment demonstrates the implementation of Multiple Linear Regression using multiple input features to predict a target variable. The model is trained and evaluated using performance metrics such as MSE and R² score.
+![Simple Linear Regression Output](assets/Package_Prediction.png)
 
-## Tools Used
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
+---
 
-## Author
-Prathamesh Patil
-![ML_Experiment](Package_Prediction_MLR.png)
+## 04. Multiple Linear Regression
 
-# Logistic_Regression (Exp_No.4)
-#Part:1 Binary Clasification
+**Folder:** `04_Multiple_Linear_Regression/`
 
-## Aim:
-To implement logistic regression for binary classification using Python and
-evaluate its performance.
+### Aim
 
-## Description
-Implemented a **Logistic Regression** model to predict student placement based on **CGPA and IQ score**. The model performs binary classification to determine whether a student is **Likely to be PLACED** or **NOT Likely to be PLACED**.
+Implement Multiple Linear Regression using Python and evaluate its performance.
 
-The experiment includes data preprocessing, model training using Python and Scikit-learn, prediction, and evaluation using accuracy, confusion matrix, classification report, ROC curve, and AUC.
+### Description
 
-A **Flask web application** was also developed to provide an interactive interface where users can enter a student's CGPA and IQ score and get the placement prediction in real time.
+This experiment demonstrates Multiple Linear Regression using multiple input features to predict a target variable.
 
-### Libraries Used
+The workflow includes data preprocessing, model training, prediction, and evaluation using metrics such as Mean Squared Error (MSE) and R² score.
 
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Pickle
-   
-# Student Likely To Be Placed According to Dataset Provided
-![ML_Experiment](Student_Placed.png)
+### Tools Used
 
-# Student Likely To Be Not Placed According to Dataset Provided
-![ML_Experiment](Student_Not_Placed.png)
+* Python
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
 
-# Logistic_Regression (Exp_No.5)
-#Part:2 Multiclass Clasification
+### Output
 
-## Aim:
-To implement multiclass classification using Python and evaluate its
-performance.
+![Multiple Linear Regression Output](assets/Package_Prediction_MLR.png)
 
-## Description
-Implemented a Multiclass Logistic Regression model to predict a student's Stress Level based on Study Hours, Sleep Hours, and Screen Time. The model performs multiclass classification to determine whether a student has Low Stress, Medium Stress, or High Stress.
+---
 
-The experiment includes data preprocessing, model training using Python and Scikit-learn, prediction, and evaluation using accuracy, confusion matrix, and classification report.
+## 05. Logistic Regression
 
-A Flask web application was also developed to provide an interactive interface where users can enter a student's Study Hours, Sleep Hours, and Screen Time and get the Stress Level prediction in real time.
+**Folder:** `05_Logistic_Regression/`
 
-# Student Performance Predictor Using Multiclass Logistic Regression
-![ML_Experiment](Student_Performance_Predictor.png)
+This folder contains two experiments covering binary and multiclass classification.
 
-# Decision_Tree_Clasifier (Exp_No.6)
-## Gini Index
+### Part 1: Binary Classification
 
-## Aim:
-To implement a Decision Tree classifier using Python and evaluate its
-performance on a given dataset.
+#### Aim
 
-## Description
-Implemented a Decision Tree Classifier using the Gini Index to predict whether a patient has heart disease or not based on 13 clinical and diagnostic features from the UCI Heart Disease dataset.
+Implement Logistic Regression for binary classification using Python and evaluate its performance.
 
-The experiment includes data preprocessing, model training using Python and Scikit-learn, prediction, and evaluation using accuracy, confusion matrix, classification report, and ROC-AUC. A Decision Tree visualization and feature importance analysis were also performed.
+#### Description
 
-A Heart Disease Risk Predictor interface was also developed to allow users to enter patient details and obtain a heart disease prediction.
+This experiment uses CGPA and IQ score to predict one of two classes using the dataset provided.
 
-## Heart Disease Risk Predictor
-# Heart Disease Detected
-![ML_Experiment](Heart_Disease_Detected.png)
-# No Heart Disease Detected
-![ML_Experiment](No_Heart_Disease_Detected.png)
+The workflow includes:
 
-# KNN Classifier (Exp_No.7)
+* Data preprocessing
+* Model training using Scikit-learn
+* Prediction
+* Accuracy evaluation
+* Confusion matrix
+* Classification report
+* ROC curve and AUC analysis
 
-## About
-This experiment demonstrates the implementation of the K-Nearest Neighbors (KNN) classification algorithm on two different datasets: Diabetes and Breast Cancer.
+A Flask web application provides an interactive interface where users can enter CGPA and IQ values to obtain a prediction.
 
-KNN Workflow
+#### Student Likely to Be Placed
 
-- Load and Inspect the Dataset
-- Data Preprocessing
-- Explore the Data
-- Split and Scale the Data
-- Tune the K Value
-- Train and Evaluate the Model
-- Make Predictions
+![Student Likely to Be Placed](assets/Student_Placed.png)
 
+#### Student Likely Not to Be Placed
 
-## 1. Breast Cancer Dataset
-The KNN classifier is used to predict whether a breast tumor is malignant or benign based on diagnostic measurements.
+![Student Likely Not to Be Placed](assets/Student_Not_Placed.png)
 
-### Output :-
-![Breast Cancer Dataset Output](KNN_Classifier_breast_output.png)
+### Part 2: Multiclass Classification
 
-## 2. Diabetes Dataset
-The KNN classifier predicts whether a patient has diabetes or not based on diagnostic and medical measurements.
+#### Aim
 
-### Output :-
-![Diabetes Dataset Output](KNN_Classifier_dibaties_output.png)
+Implement multiclass classification using Python and evaluate the model's performance.
 
-# Naive Bayes Classifier(Exp_N0.8)
-Title:
-Implementation of Naive Bayes Classifier
+#### Description
 
-Aim:
-To implement the Naïve Bayes Classifier using Python and evaluate its performance on a classification dataset.
+This experiment demonstrates Multiclass Logistic Regression for predicting a student's stress category using the features and target labels defined by the experiment's dataset.
 
-## Campus Message Detective
-![ML_Experiments](NBC_MiniProject.png)
+The intended categories are:
 
-## Output:
-![ML_Experiments](nbcMiniproject.png)
+* Low Stress
+* Medium Stress
+* High Stress
 
-# Support Vector Machine
+The experiment includes data preprocessing, model training, prediction, accuracy evaluation, confusion matrix, and classification report.
 
-# Linear_SVM(Exp_No.9)
-Title: Implementation of Linear SVM.
+A Flask web application provides an interactive interface for making predictions.
 
-## About
-Develop a Linear SVM classification model that learns a separating hyperplane from labelled banknote samples and deploy it as a web application using Flask and HTML.
-Counterfeit Banknote Detection using Linear SVM
-Use the Banknote Authentication dataset from the UCI Machine Learning Repository.
-The model predicts whether a banknote sample is classified as genuine or counterfeit using numerical features extracted from an image.
+#### Student Performance Predictor
 
-## OutPut:
-![ML_Experiment](Linear_SVM.png)
+![Student Performance Predictor](assets/Student_Performance_Predictor.png)
 
-# Non-Linear_SVM(Exp_No.10)
-Title: Implementation of Non-Linear SVM.
+---
 
-## Output:
-![ML_Experiment](Non_Linear_SVM.png)
+## 06. Decision Tree Classifier
 
-# Random Forest Algorithm(Exp_No.11)
-Title: Implementation of Random Forest Algorithm
+**Folder:** `06_Decision_Tree_Classifier/`
 
-Problem Statement:
+### Algorithm
 
-Select a suitable real-world problem and dataset of your choice to develop an end-to-end machine learning project using both classification and regression. Implement and compare Decision Tree and Random Forest algorithms to evaluate their performance.
+Decision Tree Classification using the Gini Index.
 
-![ML_Experiment](Diabetes_Exp11.png)
+### Aim
 
+Implement a Decision Tree Classifier using Python and evaluate its performance on a classification dataset.
 
+### Description
 
+This experiment uses a Decision Tree Classifier to predict heart disease based on clinical and diagnostic features from the heart disease dataset.
 
+The workflow includes:
+
+* Data preprocessing
+* Model training using Scikit-learn
+* Prediction
+* Accuracy evaluation
+* Confusion matrix
+* Classification report
+* ROC-AUC analysis
+* Decision Tree visualization
+* Feature importance analysis
+
+A Heart Disease Risk Predictor interface allows users to enter patient details and obtain a model prediction.
+
+**Disclaimer:** This experiment is for educational purposes only and is not a medical diagnostic tool.
+
+### Heart Disease Detected
+
+![Heart Disease Detected](assets/Heart_Disease_Detected.png)
+
+### No Heart Disease Detected
+
+![No Heart Disease Detected](assets/No_Heart_Disease_Detected.png)
+
+---
+
+## 07. K-Nearest Neighbors (KNN) Classifier
+
+**Folder:** `07_KNN_Classifier/`
+
+### About
+
+This experiment demonstrates the K-Nearest Neighbors classification algorithm using two datasets: Breast Cancer and Diabetes.
+
+### KNN Workflow
+
+1. Load and inspect the dataset.
+2. Perform data preprocessing.
+3. Explore the data.
+4. Split the data into training and testing sets.
+5. Scale features where appropriate.
+6. Tune the value of K.
+7. Train and evaluate the model.
+8. Generate predictions.
+
+### Part 1: Breast Cancer Dataset
+
+The KNN classifier predicts whether a breast tumor is benign or malignant using diagnostic measurements.
+
+#### Output
+
+![KNN Breast Cancer Dataset Output](assets/KNN_Classifier_breast_output.png)
+
+### Part 2: Diabetes Dataset
+
+The KNN classifier predicts the diabetes class using the input features provided by the dataset.
+
+#### Output
+
+![KNN Diabetes Dataset Output](assets/KNN_Classifier_dibaties_output.png)
+
+**Disclaimer:** These medical classification experiments are for educational purposes and should not be used for medical diagnosis.
+
+---
+
+## 08. Naive Bayes Classifier
+
+**Folder:** `08_Naive_Bayes_Classifier/`
+
+### Title
+
+Implementation of Naive Bayes Classifier.
+
+### Aim
+
+Implement the Naive Bayes classification algorithm using Python and evaluate its performance on a classification dataset.
+
+### Mini Project: Campus Message Detective
+
+This mini project demonstrates text classification using the Naive Bayes algorithm and its associated text-processing workflow.
+
+### Project Screenshot
+
+![Campus Message Detective](assets/NBC_MiniProject.png)
+
+### Output
+
+![Naive Bayes Classification Output](assets/nbcMiniproject.png)
+
+---
+
+## 09. Support Vector Machine (SVM)
+
+**Folder:** `09_Support_Vector_Machine/`
+
+This folder contains implementations of Linear SVM and Nonlinear SVM.
+
+### Part 1: Linear SVM
+
+#### Title
+
+Implementation of Linear Support Vector Machine.
+
+#### Description
+
+This experiment develops a Linear SVM classification model that learns a separating hyperplane from labelled banknote samples.
+
+It uses the Banknote Authentication dataset to classify banknote samples as genuine or counterfeit using numerical features extracted from images.
+
+A Flask web application with an HTML interface provides an interactive prediction experience.
+
+#### Output
+
+![Linear SVM Output](assets/Linear_SVM.png)
+
+### Part 2: Nonlinear SVM
+
+#### Title
+
+Implementation of Nonlinear Support Vector Machine.
+
+#### Description
+
+This experiment demonstrates nonlinear classification using an SVM with a nonlinear kernel.
+
+The saved RBF SVM model classifies banknote samples using the numerical features required by the experiment.
+
+#### Output
+
+![Nonlinear SVM Output](assets/Non_Linear_SVM.png)
+
+---
+
+## 10. Random Forest Algorithm
+
+**Folder:** `10_Random_Forest_Algorithm/`
+
+### Title
+
+Implementation of the Random Forest Algorithm.
+
+### Problem Statement
+
+Select a suitable real-world problem and dataset to develop an end-to-end Machine Learning project using classification and regression.
+
+Implement and compare Decision Tree and Random Forest algorithms to evaluate their performance.
+
+### Description
+
+This experiment explores the Random Forest algorithm for classification and regression tasks.
+
+The workflow may include:
+
+* Dataset loading and inspection
+* Data preprocessing
+* Feature and target selection
+* Training and testing
+* Model prediction
+* Performance evaluation
+* Comparison of suitable models
+
+### Output
+
+![Random Forest Algorithm Output](assets/Diabetes_Exp11.png)
+
+---
+
+## 11. Assets
+
+**Folder:** `assets/`
+
+This folder contains the PNG screenshots and output images used throughout this README.
+
+The images are organized in one location to keep the repository structured and make the documentation easier to maintain.
+
+### Images Included
+
+* `python-libraries.png`
+* `dataset.png`
+* `Package_Prediction.png`
+* `Package_Prediction_MLR.png`
+* `Student_Placed.png`
+* `Student_Not_Placed.png`
+* `Student_Performance_Predictor.png`
+* `Heart_Disease_Detected.png`
+* `No_Heart_Disease_Detected.png`
+* `KNN_Classifier_breast_output.png`
+* `KNN_Classifier_dibaties_output.png`
+* `NBC_MiniProject.png`
+* `nbcMiniproject.png`
+* `Linear_SVM.png`
+* `Non_Linear_SVM.png`
+* `Diabetes_Exp11.png`
+
+All screenshots in this README reference images inside the `assets/` folder.
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Flask
+* Pickle and Joblib, where used for model persistence
+* Jupyter Notebook
+
+---
+
+## 🎯 Learning Objectives
+
+Through these experiments, I aim to develop practical knowledge of:
+
+* Python libraries for data analysis
+* Dataset preparation and preprocessing
+* Simple and Multiple Linear Regression
+* Binary and Multiclass Logistic Regression
+* Decision Tree Classification
+* K-Nearest Neighbors
+* Naive Bayes Classification
+* Support Vector Machines
+* Random Forest
+* Model training and prediction
+* Evaluation metrics and visualizations
+* Integrating Machine Learning models with Flask applications
+
+---
+
+## 👨‍💻 Author
+
+**Prathamesh Balaji Patil**
+
+Artificial Intelligence and Machine Learning
+
+GitHub: [Shree0802](https://github.com/Shree0802)
+
+---
+
+⭐ If you find this repository useful for learning Machine Learning, feel free to explore the experiments and datasets.

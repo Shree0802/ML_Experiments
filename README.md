@@ -36,7 +36,7 @@ These resources help with learning, revising important concepts, and understandi
 
 ### Screenshot
 
-![Python Libraries](assets/python-libraries.png)
+![Python Libraries](11_assets/python-libraries.png)
 
 ---
 
@@ -59,7 +59,7 @@ This folder also includes mini-assignment materials.
 
 ### Screenshot
 
-![Dataset and Model Training](assets/dataset.png)
+![Dataset and Model Training](11_assets/dataset.png)
 
 ---
 
@@ -85,7 +85,7 @@ This experiment demonstrates Simple Linear Regression using Python. It covers da
 
 ### Output
 
-![Simple Linear Regression Output](assets/Package_Prediction.png)
+![Simple Linear Regression Output](11_assets/Package_Prediction.png)
 
 ---
 
@@ -113,7 +113,7 @@ The workflow includes data preprocessing, model training, prediction, and evalua
 
 ### Output
 
-![Multiple Linear Regression Output](assets/Package_Prediction_MLR.png)
+![Multiple Linear Regression Output](11_assets/Package_Prediction_MLR.png)
 
 ---
 
@@ -147,11 +147,11 @@ A Flask web application provides an interactive interface where users can enter 
 
 #### Student Likely to Be Placed
 
-![Student Likely to Be Placed](assets/Student_Placed.png)
+![Student Likely to Be Placed](11_assets/Student_Placed.png)
 
 #### Student Likely Not to Be Placed
 
-![Student Likely Not to Be Placed](assets/Student_Not_Placed.png)
+![Student Likely Not to Be Placed](11_assets/Student_Not_Placed.png)
 
 ### Part 2: Multiclass Classification
 
@@ -175,7 +175,7 @@ A Flask web application provides an interactive interface for making predictions
 
 #### Student Performance Predictor
 
-![Student Performance Predictor](assets/Student_Performance_Predictor.png)
+![Student Performance Predictor](11_assets/Student_Performance_Predictor.png)
 
 ---
 
@@ -213,11 +213,11 @@ A Heart Disease Risk Predictor interface allows users to enter patient details a
 
 ### Heart Disease Detected
 
-![Heart Disease Detected](assets/Heart_Disease_Detected.png)
+![Heart Disease Detected](11_assets/Heart_Disease_Detected.png)
 
 ### No Heart Disease Detected
 
-![No Heart Disease Detected](assets/No_Heart_Disease_Detected.png)
+![No Heart Disease Detected](11_assets/No_Heart_Disease_Detected.png)
 
 ---
 
@@ -246,7 +246,7 @@ The KNN classifier predicts whether a breast tumor is benign or malignant using 
 
 #### Output
 
-![KNN Breast Cancer Dataset Output](assets/KNN_Classifier_breast_output.png)
+![KNN Breast Cancer Dataset Output](11_assets/KNN_Classifier_breast_output.png)
 
 ### Part 2: Diabetes Dataset
 
@@ -254,7 +254,7 @@ The KNN classifier predicts the diabetes class using the input features provided
 
 #### Output
 
-![KNN Diabetes Dataset Output](assets/KNN_Classifier_dibaties_output.png)
+![KNN Diabetes Dataset Output](11_assets/KNN_Classifier_dibaties_output.png)
 
 **Disclaimer:** These medical classification experiments are for educational purposes and should not be used for medical diagnosis.
 
@@ -278,11 +278,11 @@ This mini project demonstrates text classification using the Naive Bayes algorit
 
 ### Project Screenshot
 
-![Campus Message Detective](assets/NBC_MiniProject.png)
+![Campus Message Detective](11_assets/NBC_MiniProject.png)
 
 ### Output
 
-![Naive Bayes Classification Output](assets/nbcMiniproject.png)
+![Naive Bayes Classification Output](11_assets/nbcMiniproject.png)
 
 ---
 
@@ -308,7 +308,7 @@ A Flask web application with an HTML interface provides an interactive predictio
 
 #### Output
 
-![Linear SVM Output](assets/Linear_SVM.png)
+![Linear SVM Output](11_assets/Linear_SVM.png)
 
 ### Part 2: Nonlinear SVM
 
@@ -324,7 +324,7 @@ The saved RBF SVM model classifies banknote samples using the numerical features
 
 #### Output
 
-![Nonlinear SVM Output](assets/Non_Linear_SVM.png)
+![Nonlinear SVM Output](11_assets/Non_Linear_SVM.png)
 
 ---
 
@@ -358,7 +358,7 @@ The workflow may include:
 
 ### Output
 
-![Random Forest Algorithm Output](assets/Diabetes_Exp11.png)
+![Random Forest Algorithm Output](11_assets/Diabetes_Exp11.png)
 
 ---
 
